@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap');
 
-:root {
-    --cor-principal: #6E859F;
-    --cor-secundaria: #284260;
-    --cor-destaque: #C92BFC;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +8,7 @@
 
 body {
     font-family: 'Chakra Petch', sans-serif;
-    color: var(--cor-principal);
+    color: #6E859F; /* cor-principal */
     background-color: #fff;
     line-height: 1.6;
     padding: 20px;
@@ -37,14 +31,14 @@ body {
 }
 
 h1, h2, h5 {
-    color: var(--cor-secundaria);
+    color: #284260; /* cor-secundaria */
     font-weight: 700;
     margin: 10px 0;
 }
 
 .destaque {
     font-weight: 700;
-    color: var(--cor-destaque);
+    color: #C92BFC; /* cor-destaque */
     margin-top: 10px;
 }
 
@@ -57,7 +51,7 @@ h1, h2, h5 {
 }
 
 .selo {
-    background-color: var(--cor-principal);
+    background-color: #6E859F; /* cor-principal */
     color: white;
     padding: 5px 10px;
     border-radius: 12px;
@@ -91,7 +85,7 @@ h1, h2, h5 {
 }
 
 .botao-link {
-    color: var(--cor-destaque);
+    color: #C92BFC; /* cor-destaque */
     background: none;
     border: none;
     cursor: pointer;
@@ -101,16 +95,16 @@ h1, h2, h5 {
 }
 
 .botao-link:hover {
-    color: var(--cor-principal);
+    color: #6E859F; /* cor-principal */
 }
 
 a {
     text-decoration: none;
-    color: var(--cor-principal);
+    color: #6E859F; /* cor-principal */
 }
 
 a:hover {
-    color: var(--cor-destaque);
+    color: #C92BFC; /* cor-destaque */
 }
 
 footer {
